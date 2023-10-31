@@ -4,7 +4,7 @@ body{
     background: url("./background.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(242, 255, 241,0.9);
+    color: rgb(255, 255, 255);
     font-family: "Poppins";
 }
 form{
@@ -27,7 +27,7 @@ select{
 }
 select:focus{
     outline: none;
-    border: 3px solid rgba(70, 174, 70, 0.5);
+    border: 2px solid rgba(70, 174, 70, 0.5);
     appearance: none;
 }
 select::-webkit-outer-spin-button,select::-webkit-inner-spin-button {
@@ -35,12 +35,8 @@ select::-webkit-outer-spin-button,select::-webkit-inner-spin-button {
     appearance: none;
 }
 option{
-    background: rgba(70, 174, 70, 0.5);
-    color: rgb(242, 255, 241,0.9);
-}
-option::selection{
-    color: rgba(70, 174, 70, 0.5);
-    background: rgb(242, 255, 241,0.9);
+    background: rgba(233, 255, 233, 0.5);
+    
 }
 fieldset{
     display: flex;
@@ -67,4 +63,5 @@ button:hover{
 div{
     font-size: 16px;
     font-weight: 900;
+    color: rgb(242, 255, 241);
 }
